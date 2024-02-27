@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Customer Order Details</title>
+  <link rel="stylesheet" type="text/css" href="details.css">
+</head>
+<body>
+  <h1>Customer Order Details</h1>
+  <form method="post" action="details.php">
+    <label for="customerName">Customer Name:</label>
+    <input type="text" id="customerName" name="customerName" required><br><br>
+    <label for="phone">phone:</label>
+    <input type="number" id="phone" name="phone" required><br><br>
+    <label for="Addres">Addres:</label>
+    <input type="text" id="Addres" name="Addres" required><br><br>
+    <label for="product">Product:</label>
+    <select id="product" name="product" required>
+      <option value="">Select a product</option>
+      <option value="SHOES">SHOES</option>
+      <option value="MEN T-SHIRT">MEN T-SHIRT</option>
+      <option value="JEANS">JEANS</option>
+      <option value="WATCH">WATCH</option>
+      <option value="Iphone">Iphone</option>
+      <option value="TELEVISION">TELEVISION</option>
+      <option value="HOODIES">HOODIES</option>
+      <option value="DINNER SET">DINNER SET</option>
+      <option value="BLANKETS">BLANKETS</option>
+      <option value="LAPTOP">LAPTOP</option>
+      <option value="MICROWAVE">MICROWAVE</option>
+      <option value="BED">BED</option>
+      <option value="AIR CONDITIONER">AIR CONDITIONER</option>
+      <option value="BOOK">BOOK</option>
+      <option value="BAG">BAG</option>
+      <option value="SAREES">BSAREESAG</option>
+      <option value="WASHING MACHINE">WASHING MACHINE</option>
+    </select><br><br>
+    
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" required><br><br>
+    
+    <input type="submit" value="submit">
+    <a href="adf.html" value="Place Order"></a>
+  </form>
+  
+  <div id="orderSummary"></div>
+  
+  <script src="details.js"></script>
+</body>
+</html>
+
+
+
+
+ 
+
+
+
+
+
+
+
+
