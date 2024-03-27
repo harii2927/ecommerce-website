@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>NAMMAKADAI.COM</title>
+        <title>ECOMMERCE.COM</title>
         <link rel="stylesheet" href="ecommerce.css" />
         <link
             href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
@@ -13,7 +13,7 @@
     </head>
     <body>
         <header>
-            <div class="logo"><a href="#">NAMMAKADAI</a></div>
+            <div class="logo"><a href="#">ECOMMERCE</a></div>
             <div class="menu">
                 <a href=""><ion-icon name="close" class="close"></ion-icon></a>
                 <ul>
@@ -375,7 +375,7 @@
             </div>
             <div class="footer3">
                 Copyright ©
-                <h4>NammaKadaI</h4>
+                <h4>ECOMMERCE</h4>
                 2024-2028
             </div>
         </footer>
